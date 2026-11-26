@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mau Loa · Bar, Restaurante y Celebraciones en Espartinas, Sevilla</title>
+  <meta name="description" content="Mau Loa, bar y restaurante en Espartinas (Sevilla). Cocina casera con producto local, tapas, raciones y carnes ibéricas al fuego. Celebraciones y eventos. Reserva por WhatsApp.">
+  <meta name="theme-color" content="#0a0305">
+  <meta name="format-detection" content="telephone=no">
+  <!-- TODO: sustituir por el dominio definitivo y descomentar -->
+  <!-- <link rel="canonical" href="https://DOMINIO/"> -->
+
+  <!-- Open Graph / redes sociales -->
+  <meta property="og:type" content="restaurant">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="Mau Loa">
+  <meta property="og:title" content="Mau Loa · Por siempre">
+  <meta property="og:description" content="Bar · Restaurante · Celebraciones en Espartinas, Sevilla. Cocina casera con producto local.">
+  <!-- TODO: og:url y og:image deben ser URL absolutas con el dominio definitivo -->
+  <meta property="og:image" content="assets/img/og-mau-loa.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Salón de Mau Loa con arcos y vigas de madera">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Iconos -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <!-- Rendimiento: imagen principal y tipografías -->
+  <link rel="preload" as="image" type="image/webp" href="assets/img/salon.webp" imagesrcset="assets/img/salon-640.webp 640w, assets/img/salon.webp 1100w" imagesizes="100vw" fetchpriority="high">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=Great+Vibes&family=Lato:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+  <script src="js/main.js" defer></script>
+
+  <!-- Datos estructurados (solo datos presentes en la web) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Mau Loa",
+    "slogan": "Por siempre",
+    "image": "assets/img/og-mau-loa.jpg",
+    "telephone": "+34633554999",
+    "servesCuisine": "Andaluza",
+    "acceptsReservations": true,
+    "sameAs": [
+      "https://www.instagram.com/mau_loa_1023/",
+      "https://www.facebook.com/share/1GJgmVsUgK/"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "C/ Mártires de la Iglesia",
+      "postalCode": "41807",
+      "addressLocality": "Espartinas",
+      "addressRegion": "Sevilla",
+      "addressCountry": "ES"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday"], "opens": "08:30", "closes": "13:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday"], "opens": "20:30", "closes": "00:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday", "Thursday", "Friday"], "opens": "08:30", "closes": "16:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday", "Thursday", "Friday"], "opens": "20:30", "closes": "00:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday", "Sunday"], "opens": "09:00", "closes": "16:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday", "Sunday"], "opens": "20:30", "closes": "00:00" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- ═══ CABECERA / NAVEGACIÓN ═══ -->
+  <header class="site-header" id="cabecera">
+    <a href="#inicio" class="brand" aria-label="Mau Loa, ir al inicio">
+      <picture>
+        <source srcset="assets/img/logo-corona.webp" type="image/webp">
+        <img src="assets/img/logo-corona.png" alt="" width="653" height="457" class="brand__logo">
+      </picture>
+      <span class="brand__text">
+        <span class="brand__name">Mau Loa</span>
+        <span class="brand__tagline">Por siempre</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú">
+      <span class="nav-toggle__bar" aria-hidden="true"></span>
+    </button>
+
+    <nav class="site-nav" id="menu-principal" aria-label="Principal">
+      <ul class="site-nav__list">
+        <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+        <li><a href="#carta" class="nav-link">Carta</a></li>
+        <li><a href="#galeria" class="nav-link">Galería</a></li>
+        <li><a href="#eventos" class="nav-link">Eventos</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        <li><a href="#reservas" class="btn btn--primary btn--sm">Reservar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <!-- ═══ PORTADA ═══ -->
+    <section id="inicio" class="hero" aria-labelledby="hero-title">
+      <picture class="hero__bg">
+        <source type="image/webp" srcset="assets/img/salon-640.webp 640w, assets/img/salon.webp 1100w" sizes="100vw">
+        <img src="assets/img/salon.jpg" alt="" width="1100" height="1100" fetchpriority="high" decoding="async">
+      </picture>
+      <div class="hero__content">
+        <p class="hero__location">Espartinas · Sevilla</p>
+        <h1 class="hero__title" id="hero-title">Mau Loa</h1>
+        <p class="hero__script">Por siempre</p>
+        <p class="hero__claim">Bar · Restaurante · Celebraciones</p>
+        <div class="hero__actions">
+          <a href="#carta" class="btn btn--primary">Nuestra Carta</a>
+          <a href="#reservas" class="btn btn--outline">Reservar Mesa</a>
+        </div>
+      </div>
+      <a href="#nosotros" class="hero__scroll" aria-label="Bajar a Nosotros">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+      </a>
+    </section>
+
+    <!-- ═══ NOSOTROS ═══ -->
+    <section id="nosotros" class="section section--light" aria-labelledby="nosotros-title">
+      <div class="container about">
+        <div class="about__text">
+          <p class="eyebrow">Quiénes somos</p>
+          <h2 class="section-title section-title--dark section-title--left" id="nosotros-title">Un rincón<br><em>para siempre</em></h2>
+          <span class="divider divider--left" aria-hidden="true"></span>
+          <p class="about__p">Mau Loa nació con la ilusión de crear un espacio donde el tiempo se detiene. En el corazón de Espartinas, bajo sus arcos centenarios y vigas de madera, hemos dado vida a un lugar donde la tradición andaluza se encuentra con el confort moderno.</p>
+          <p class="about__p">Nuestra cocina honra los sabores de siempre, elaborados con producto local y mucho cariño. Cada plato es una invitación a disfrutar, compartir y crear recuerdos que duren para siempre.</p>
+          <dl class="about__stats">
+            <div>
+              <dt class="about__stat-value">100%</dt>
+              <dd class="about__stat-label">Casero</dd>
+            </div>
+            <div>
+              <dt class="about__stat-value about__stat-value--word">Sevilla</dt>
+              <dd class="about__stat-label">Tradición</dd>
+            </div>
+          </dl>
+        </div>
+        <figure class="about__media">
+          <picture>
+            <source type="image/webp" srcset="assets/img/salon-nosotros-640.webp 640w, assets/img/salon-nosotros.webp 720w" sizes="(max-width: 900px) 100vw, 540px">
+            <img src="assets/img/salon-nosotros.jpg" alt="Salón de Mau Loa con arcos y vigas de madera" width="720" height="1276" loading="lazy" decoding="async">
+          </picture>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ═══ CARTA ═══ -->
+    <section id="carta" class="section section--dark" aria-labelledby="carta-title">
+      <div class="container container--narrow">
+        <header class="section-head">
+          <p class="eyebrow">Nuestra</p>
+          <h2 class="section-title" id="carta-title">Carta</h2>
+          <span class="divider" aria-hidden="true"></span>
+        </header>
+
+        <div class="tabs" role="tablist" aria-label="Secciones de la carta">
+          <button class="tabs__tab" role="tab" type="button" id="tab-aperitivo" aria-controls="panel-aperitivo" aria-selected="true">Para abrir el apetito</button>
+          <button class="tabs__tab" role="tab" type="button" id="tab-huerto" aria-controls="panel-huerto" aria-selected="false" tabindex="-1">Del huerto a tu mesa</button>
+          <button class="tabs__tab" role="tab" type="button" id="tab-compartir" aria-controls="panel-compartir" aria-selected="false" tabindex="-1">Para compartir o no</button>
+          <button class="tabs__tab" role="tab" type="button" id="tab-fuego" aria-controls="panel-fuego" aria-selected="false" tabindex="-1">Al fuego</button>
+        </div>
+
+        <div class="tabs__panel" role="tabpanel" id="panel-aperitivo" aria-labelledby="tab-aperitivo" tabindex="0">
+          <h3 class="visually-hidden">Para abrir el apetito</h3>
+          <ul class="menu">
+            <li class="menu__item"><div><p class="menu__name">Tabla de queso</p><p class="menu__desc">Payoyo, picante, romero y apolonio</p></div><p class="menu__price">12,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Chicharrón de Cádiz</p></div><p class="menu__price">8,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Tosta de crema de cabrales y chorizo picante</p></div><p class="menu__price">14,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Tosta de presa con cebolla caramelizada y mayonesa de trufa</p></div><p class="menu__price">14,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Nachis Achis</p><p class="menu__desc">Nachos con guacamole, queso crema, pico de gallo y bacon</p></div><p class="menu__price">10,00 €</p></li>
+          </ul>
+        </div>
+
+        <div class="tabs__panel" role="tabpanel" id="panel-huerto" aria-labelledby="tab-huerto" tabindex="0">
+          <h3 class="visually-hidden">Del huerto a tu mesa</h3>
+          <ul class="menu">
+            <li class="menu__item"><div><p class="menu__name">Gambas de Huelva</p></div><p class="menu__price">16,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Espinacas fritas con nueces</p><p class="menu__desc">Ensalada de espinacas con queso de cabra y nueces</p></div><p class="menu__price">10,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Ensaladilla de gambas al ajillo</p><p class="menu__desc">Patatas, zanahorias, ajo, gambas, mayonesa</p></div><p class="menu__price">Tapa 3,50 € · Ración 9,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Ensaladilla de mejillón en escabeche</p><p class="menu__desc">Con alcaparras y pepinillos</p></div><p class="menu__price">Tapa 3,50 € · Ración 9,00 €</p></li>
+          </ul>
+        </div>
+
+        <div class="tabs__panel" role="tabpanel" id="panel-compartir" aria-labelledby="tab-compartir" tabindex="0">
+          <h3 class="visually-hidden">Para compartir o no</h3>
+          <ul class="menu">
+            <li class="menu__item"><div><p class="menu__name">Croquetas caseras</p><p class="menu__desc">Consultar sabores disponibles</p></div><p class="menu__price">Tapa 3,50 € · Ración 9,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Papas bravioli</p></div><p class="menu__price">9,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Papas a la antigua</p><p class="menu__desc">Salsa de mostaza antigua con cebolla y bacon</p></div><p class="menu__price">9,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Timbal de berenjena</p><p class="menu__desc">Con solomillo, queso de cabra y miel de caña</p></div><p class="menu__price">4,50 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Gyozas de pollo y setas</p></div><p class="menu__price">5,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Bocado de camarón</p><p class="menu__desc">Con alga wakame y mayonesa de kimchi</p></div><p class="menu__price">8,50 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Solomillo al whisky</p></div><p class="menu__price">Tapa 4,50 € · Ración 9,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Solomillo roque</p></div><p class="menu__price">Tapa 4,50 € · Ración 9,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Chipi plancha</p></div><p class="menu__price">Tapa 4,00 € · Ración 9,50 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Pan bao (2 uds)</p><p class="menu__desc">Lechuga, carne deshilachada, salsa cacahuetes y mayonesa de sriracha</p></div><p class="menu__price">4,50 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Pan brioche de langostinos rebozados</p><p class="menu__desc">Canónigos y mayonesa de kimchi</p></div><p class="menu__price">Tapa 8,50 € · Ración 16,00 € · Unidad 5,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Lagrimitas de pollo caseras</p></div><p class="menu__price">Tapa 4,00 € · Ración 9,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Pollo cajún</p></div><p class="menu__price">Tapa 4,00 € · Ración 9,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Chocos fritos</p></div><p class="menu__price">Tapa 7,00 € · Ración 12,50 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Boquerones</p></div><p class="menu__price">Tapa 7,00 € · Ración 12,50 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Adobo</p></div><p class="menu__price">Tapa 6,00 € · Ración 11,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Hamburguesa crispy</p><p class="menu__desc">Pollo crispy, lechuga, tomate y mayonesa de kimchi</p></div><p class="menu__price">10,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Hamburguesa de atún</p><p class="menu__desc">Con lechuga, tomate y salsa tártara</p></div><p class="menu__price">14,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Hamburguesa Mau Loa</p><p class="menu__desc">Ternera, cebolla caramelizada, queso de cabra y bacon crispy</p></div><p class="menu__price">10,00 €</p></li>
+          </ul>
+        </div>
+
+        <div class="tabs__panel" role="tabpanel" id="panel-fuego" aria-labelledby="tab-fuego" tabindex="0">
+          <h3 class="visually-hidden">Al fuego</h3>
+          <ul class="menu">
+            <li class="menu__item"><div><p class="menu__name">Atún</p><p class="menu__desc">Lomo de atún a la plancha con picada verde</p></div><p class="menu__price">13,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Churrasco</p><p class="menu__desc">De pollo o lomo acompañado de nuestro morimojo</p></div><p class="menu__price">8,50 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Presa ibérica</p><p class="menu__desc">Presa ibérica de nuestra tierra</p></div><p class="menu__price">18,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Pluma ibérica</p><p class="menu__desc">Pluma ibérica de nuestra tierra</p></div><p class="menu__price">15,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Lagarto ibérico</p><p class="menu__desc">Lagartito ibérico de nuestra tierra</p></div><p class="menu__price">14,00 €</p></li>
+          </ul>
+        </div>
+
+        <p class="menu__note">Alérgenos disponibles bajo petición · Precios con IVA incluido</p>
+      </div>
+    </section>
+
+    <!-- ═══ GALERÍA ═══ -->
+    <section id="galeria" class="section section--sand" aria-labelledby="galeria-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Nuestro espacio</p>
+          <h2 class="section-title section-title--dark" id="galeria-title">Galería</h2>
+          <span class="divider" aria-hidden="true"></span>
+        </header>
+
+        <div class="carousel" role="region" aria-roledescription="carrusel" aria-label="Fotografías de Mau Loa" tabindex="0">
+          <ul class="carousel__track" id="carousel-track">
+            <li class="carousel__slide" aria-roledescription="diapositiva" aria-label="1 de 11">
+              <button type="button" class="carousel__open" data-full="assets/img/cartel.webp" aria-label="Ampliar: Mau Loa por siempre">
+                <picture>
+                  <source type="image/webp" srcset="assets/img/cartel-640.webp 640w, assets/img/cartel.webp 1080w" sizes="(max-width: 1200px) 100vw, 1080px">
+                  <img src="assets/img/cartel.jpg" alt="Mau Loa por siempre" width="1080" height="732" class="fit-cover" decoding="async">
+                </picture>
+              </button>
+            </li>
+            <li class="carousel__slide" aria-roledescription="diapositiva" aria-label="2 de 11">
+              <button type="button" class="carousel__open" data-full="assets/img/ensaladilla-gambas-ajillo.webp" aria-label="Ampliar: Ensaladilla de gambas al ajillo">
+                <picture>
+                  <source type="image/webp" srcset="assets/img/ensaladilla-gambas-ajillo-640.webp 640w, assets/img/ensaladilla-gambas-ajillo.webp 1080w" sizes="(max-width: 1200px) 100vw, 1080px">
+                  <img src="assets/img/ensaladilla-gambas-ajillo.jpg" alt="Ensaladilla de gambas al ajillo" width="1080" height="626" class="fit-cover" loading="lazy" decoding="async">
+                </picture>
+              </button>
+            </li>
+            <li class="carousel__slide" aria-roledescription="diapositiva" aria-label="3 de 11">
+              <button type="button" class="carousel__open" data-full="assets/img/ensalada-espinacas.webp" aria-label="Ampliar: Ensalada de espinacas">
+                <picture>
+                  <source type="image/webp" srcset="assets/img/ensalada-espinacas-640.webp 640w, assets/img/ensalada-espinacas.webp 1536w" sizes="(max-width: 1200px) 100vw, 1080px">
+                  <img src="assets/img/ensalada-espinacas.jpg" alt="Ensalada de espinacas" width="1536" height="1024" class="fit-cover" loading="lazy" decoding="async">
+                </picture>
+              </button>
+            </li>
+            <li class="carousel__slide" aria-roledescription="diapositiva" aria-label="4 de 11">
+              <button type="button" class="carousel__open" data-full="assets/img/flor-alcachofa.webp" aria-label="Ampliar: Flor de alcachofa">
+                <picture>
+                  <source type="image/webp" srcset="assets/img/flor-alcachofa-640.webp 640w, assets/img/flor-alcachofa.webp 1536w" sizes="(max-width: 1200px) 100vw, 1080px">
+                  <img src="assets/img/flor-alcachofa.jpg" alt="Flor de alcachofa" width="1536" height="1024" class="fit-cover" loading="lazy" decoding="async">
+                </picture>
+              </button>
+            </li>
+            <li class="carousel__slide carousel__slide--contain" aria-roledescription="diapositiva" aria-label="5 de 11">
+              <button type="button" class="carousel__open" data-full="assets/img/pata-pulpo.webp" aria-label="Ampliar: Pata de pulpo">
+                <picture>
+                  <source type="image/webp" srcset="assets/img/pata-pulpo-640.webp 640w, assets/img/pata-pulpo.webp 720w" sizes="(max-width: 900px) 100vw, 450px">
+                  <img src="assets/img/pata-pulpo.jpg" alt="Pata de pulpo" width="720" height="973" class="fit-contain" loading="lazy" decoding="async">
+                </picture>
+              </button>
+            </li>
+			<li class="carousel__slide carousel__slide--contain" aria-roledescription="diapositiva" aria-label="6 de 11">
+              <button type="button" class="carousel__open" data-full="assets/img/tataki-de-presa.webp" aria-label="Ampliar: Tataki de presa">
+                <picture>
+                  <source type="image/webp" srcset="assets/img/tataki-de-presa-640.webp 640w, assets/img/tataki-de-presa.webp 720w" sizes="(max-width: 900px) 100vw, 450px">
+                  <img src="assets/img/tataki-de-presa.jpg" alt="Tataki de presa" width="720" height="973" class="fit-contain" loading="lazy" decoding="async">
+                </picture>
+              </button>
+            </li>
+            <li class="carousel__slide" aria-roledescription="diapositiva" aria-label="7 de 11">
+              <button type="button" class="carousel__open" data-full="assets/img/mesa-redonda.webp" aria-label="Ampliar: Mesa redonda">
+                <picture>
+                  <source type="image/webp" srcset="assets/img/mesa-redonda-640.webp 640w, assets/img/mesa-redonda.webp 984w" sizes="(max-width: 1200px) 100vw, 1080px">
+                  <img src="assets/img/mesa-redonda.jpg" alt="Mesa redonda" width="984" height="720" class="fit-cover" loading="lazy" decoding="async">
+                </picture>
+              </button>
+            </li>
+			<li class="carousel__slide" aria-roledescription="diapositiva" aria-label="8 de 11">
+              <button type="button" class="carousel__open" data-full="assets/img/salon1.webp" aria-label="Ampliar: Salón">
+                <picture>
+                  <source type="image/webp" srcset="assets/img/salon1-640.webp 640w, assets/img/salon1.webp 984w" sizes="(max-width: 1200px) 100vw, 1080px">
+                  <img src="assets/img/salon1.jpg" alt="Salon" width="984" height="720" class="fit-cover" loading="lazy" decoding="async">
+                </picture>
+              </button>
+            </li>
+			<li class="carousel__slide" aria-roledescription="diapositiva" aria-label="9 de 11">
+              <button type="button" class="carousel__open" data-full="assets/img/evento.webp" aria-label="Ampliar: Evento">
+                <picture>
+                  <source type="image/webp" srcset="assets/img/evento-640.webp 640w, assets/img/evento.webp 984w" sizes="(max-width: 1200px) 100vw, 1080px">
+                  <img src="assets/img/evento.jpg" alt="Evento" width="984" height="720" class="fit-cover" loading="lazy" decoding="async">
+                </picture>
+              </button>
+            </li>
+			<li class="carousel__slide" aria-roledescription="diapositiva" aria-label="10 de 11">
+              <button type="button" class="carousel__open" data-full="assets/img/terraza.webp" aria-label="Ampliar: Terraza">
+                <picture>
+                  <source type="image/webp" srcset="assets/img/terraza-640.webp 640w, assets/img/terraza.webp 984w" sizes="(max-width: 1200px) 100vw, 1080px">
+                  <img src="assets/img/terraza.jpg" alt="Terraza" width="984" height="720" class="fit-cover" loading="lazy" decoding="async">
+                </picture>
+              </button>
+            </li>
+			<!--
+			<li class="carousel__slide carousel__slide--contain" aria-roledescription="diapositiva" aria-label="2 de 9">
+              <button type="button" class="carousel__open" data-full="assets/img/chimenea.webp" aria-label="Ampliar: Chimenea y ambiente">
+                <picture>
+                  <source type="image/webp" srcset="assets/img/chimenea-640.webp 640w, assets/img/chimenea.webp 1080w" sizes="(max-width: 900px) 100vw, 440px">
+                  <img src="assets/img/chimenea.jpg" alt="Chimenea y ambiente" width="1080" height="1476" class="fit-contain" loading="lazy" decoding="async">
+                </picture>
+              </button>
+            </li> -->
+            <li class="carousel__slide carousel__slide--brand" aria-roledescription="diapositiva" aria-label="11 de 11">
+              <button type="button" class="carousel__open" data-full="assets/img/nombre-marca.webp" aria-label="Ampliar: Nuestra identidad">
+                <picture>
+                  <source type="image/webp" srcset="assets/img/nombre-marca.webp">
+                  <img src="assets/img/nombre-marca.jpg" alt="Nuestra identidad" width="653" height="653" class="fit-contain" loading="lazy" decoding="async">
+                </picture>
+              </button>
+            </li>
+          </ul>
+
+          <div class="carousel__shade" aria-hidden="true"></div>
+
+          <button type="button" class="carousel__arrow carousel__arrow--prev" data-dir="-1" aria-controls="carousel-track" aria-label="Foto anterior">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button type="button" class="carousel__arrow carousel__arrow--next" data-dir="1" aria-controls="carousel-track" aria-label="Foto siguiente">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+
+          <p class="carousel__label" aria-live="polite">Mau Loa por siempre</p>
+          <p class="carousel__counter" aria-hidden="true">1 / 8</p>
+          <div class="carousel__dots" role="group" aria-label="Elegir foto"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ EVENTOS ═══ -->
+    <section id="eventos" class="section section--wine" aria-labelledby="eventos-title">
+      <div class="container">
+        <header class="section-head section-head--wide">
+          <p class="eyebrow">Celebra con nosotros</p>
+          <h2 class="section-title" id="eventos-title">Eventos <em>&amp;</em> Celebraciones</h2>
+          <span class="divider" aria-hidden="true"></span>
+          <p class="section-lead">Nuestro espacio único, con sus arcos históricos y chimenea, es el escenario perfecto para celebraciones íntimas y eventos especiales.</p>
+        </header>
+
+        <ul class="events">
+          <li class="event-card">
+            <span class="event-card__num" aria-hidden="true">I</span>
+            <h3 class="event-card__title">Celebraciones privadas</h3>
+            <p class="event-card__desc">Tu espacio exclusivo para los momentos más especiales de tu vida</p>
+          </li>
+          <li class="event-card">
+            <span class="event-card__num" aria-hidden="true">II</span>
+            <h3 class="event-card__title">Cumpleaños</h3>
+            <p class="event-card__desc">Sorprende a tus seres queridos en un entorno único e íntimo</p>
+          </li>
+          <li class="event-card event-card--action">
+            <span class="event-card__num" aria-hidden="true">III</span>
+            <h3 class="event-card__title">
+              <button type="button" class="event-card__trigger" data-dialog="menus-corporativos" aria-haspopup="dialog" aria-controls="menus-corporativos">Eventos corporativos</button>
+            </h3>
+            <p class="event-card__desc">Reuniones de empresa en un ambiente diferente y sofisticado</p>
+            <span class="event-card__more" aria-hidden="true">Ver menús</span>
+          </li>
+          <li class="event-card">
+            <span class="event-card__num" aria-hidden="true">IV</span>
+            <h3 class="event-card__title">Comuniones y bautizos</h3>
+            <p class="event-card__desc">Los primeros grandes momentos de vida merecen el mejor escenario</p>
+          </li>
+        </ul>
+
+        <aside class="events-cta" aria-labelledby="events-cta-title">
+          <picture class="events-cta__bg">
+            <source type="image/webp" srcset="assets/img/salon-640.webp 640w, assets/img/salon.webp 1100w" sizes="(max-width: 1200px) 100vw, 1080px">
+            <img src="assets/img/salon.jpg" alt="" width="1100" height="1100" loading="lazy" decoding="async">
+          </picture>
+          <div class="events-cta__content">
+            <h3 class="events-cta__title" id="events-cta-title">¿Tienes un evento especial?</h3>
+            <p class="events-cta__text">Contáctanos y diseñaremos juntos la celebración perfecta para ti</p>
+            <a href="https://wa.me/34633554999" target="_blank" rel="noopener" class="btn btn--primary">Consultar disponibilidad</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ═══ RESERVAS ═══ -->
+    <section id="reservas" class="section section--light" aria-labelledby="reservas-title">
+      <div class="container container--form">
+        <header class="section-head">
+          <p class="eyebrow">Reserva tu mesa</p>
+          <h2 class="section-title section-title--dark" id="reservas-title">Reservas</h2>
+          <span class="divider" aria-hidden="true"></span>
+        </header>
+
+        <div class="booking-success" id="booking-success" hidden tabindex="-1">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="20"/><polyline points="16 24 22 30 32 18"/></svg>
+          <h3 class="booking-success__title">¡Solicitud enviada!</h3>
+          <p>Hemos abierto WhatsApp con tu solicitud de reserva. Te confirmaremos a la mayor brevedad posible. ¡Hasta pronto!</p>
+        </div>
+
+        <div id="booking-area">
+          <form class="booking" id="booking-form" novalidate>
+            <div class="booking__row">
+              <div class="field">
+                <label class="field__label" for="f-nombre">Nombre</label>
+                <input class="field__input" type="text" id="f-nombre" name="nombre" required autocomplete="name" placeholder="Tu nombre completo">
+              </div>
+              <div class="field">
+                <label class="field__label" for="f-comensales">Comensales</label>
+                <select class="field__input" id="f-comensales" name="comensales">
+                  <option value="1">1 persona</option>
+                  <option value="2" selected>2 personas</option>
+                  <option value="3">3 personas</option>
+                  <option value="4">4 personas</option>
+                  <option value="5">5 personas</option>
+                  <option value="6">6 personas</option>
+                  <option value="7">7 personas</option>
+                  <option value="8 o más">8 o más personas</option>
+                </select>
+              </div>
+            </div>
+            <div class="booking__row">
+              <div class="field">
+                <label class="field__label" for="f-fecha">Fecha</label>
+                <input class="field__input" type="date" id="f-fecha" name="fecha" required>
+              </div>
+              <div class="field">
+                <label class="field__label" for="f-hora">Hora</label>
+                <input class="field__input" type="time" id="f-hora" name="hora" required>
+              </div>
+            </div>
+            <div class="field">
+              <label class="field__label" for="f-notas">Notas adicionales <span class="field__optional">(opcional)</span></label>
+              <textarea class="field__input field__input--area" id="f-notas" name="notas" rows="3" placeholder="Alergias, ocasión especial, peticiones..."></textarea>
+            </div>
+            <p class="booking__error" id="booking-error" role="alert" hidden>Por favor, completa nombre, fecha y hora.</p>
+            <button type="submit" class="btn btn--primary btn--block">Enviar solicitud por WhatsApp</button>
+          </form>
+
+          <div class="booking__alt">
+            <a href="tel:+34633554999" class="booking__alt-link">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.37a16 16 0 0 0 5.72 5.72l1.46-1.46a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 14.92z"/></svg>
+              633 55 49 99
+            </a>
+            <a href="https://wa.me/34633554999" target="_blank" rel="noopener" class="booking__alt-link">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              WhatsApp directo
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ CONTACTO ═══ -->
+    <section id="contacto" class="section section--dark" aria-labelledby="contacto-title">
+      <div class="container">
+        <header class="section-head section-head--wide">
+          <p class="eyebrow">Encuéntranos</p>
+          <h2 class="section-title" id="contacto-title">Contacto</h2>
+          <span class="divider" aria-hidden="true"></span>
+        </header>
+
+        <div class="contact">
+          <div>
+            <h3 class="contact__heading">Dirección</h3>
+            <address class="contact__address">C/ Mártires de la Iglesia<br>41807 Espartinas, Sevilla</address>
+            <a href="tel:+34633554999" class="contact__phone">633 55 49 99</a>
+            <a href="https://wa.me/34633554999" target="_blank" rel="noopener" class="contact__wa">Escribir por WhatsApp <span aria-hidden="true">→</span></a>
+          </div>
+
+          <div>
+            <h3 class="contact__heading">Horarios</h3>
+            <dl class="hours">
+              <div class="hours__row">
+                <dt>Lunes – Martes</dt>
+                <dd>08:30 – 13:00 &nbsp;·&nbsp; 20:30 – 00:00</dd>
+              </div>
+              <div class="hours__row">
+                <dt>Miércoles – Viernes</dt>
+                <dd>08:30 – 16:00 &nbsp;·&nbsp; 20:30 – 00:00</dd>
+              </div>
+              <div class="hours__row">
+                <dt>Sábado – Domingo</dt>
+                <dd>09:00 – 16:00 &nbsp;·&nbsp; 20:30 – 00:00</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div>
+            <h3 class="contact__heading">Síguenos</h3>
+            <ul class="social">
+              <li>
+                <a href="https://www.instagram.com/mau_loa_1023/" target="_blank" rel="noopener" class="social__link">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+                  Instagram · @mau_loa_1023
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/share/1GJgmVsUgK/" target="_blank" rel="noopener" class="social__link">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                  Facebook · Mau Loa
+                </a>
+              </li>
+            </ul>
+            <a href="https://wa.me/34633554999" target="_blank" rel="noopener" class="btn btn--outline btn--icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <div class="map">
+          <iframe src="https://maps.google.com/maps?q=C%2F+M%C3%A1rtires+de+la+Iglesia%2C+41807+Espartinas%2C+Sevilla&amp;z=16&amp;output=embed" title="Ubicación de Mau Loa en el mapa" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══ PIE DE PÁGINA ═══ -->
+  <footer class="site-footer">
+    <div class="container container--flush">
+      <div class="site-footer__top">
+        <div class="brand brand--footer">
+          <picture>
+            <source srcset="assets/img/logo-corona.webp" type="image/webp">
+            <img src="assets/img/logo-corona.png" alt="" width="653" height="457" class="brand__logo" loading="lazy" decoding="async">
+          </picture>
+          <span class="brand__text">
+            <span class="brand__name">Mau Loa</span>
+            <span class="brand__script">Por siempre</span>
+          </span>
+        </div>
+        <nav aria-label="Pie de página">
+          <ul class="site-footer__nav">
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#carta">Carta</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#reservas">Reservas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="site-footer__bottom">
+        <p>© <span id="year">2026</span> Mau Loa · C/ Mártires de la Iglesia, 41807 Espartinas, Sevilla · 633 55 49 99</p>
+        <p class="site-footer__love">Hecho con amor en Andalucía</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══ MENÚS DE EVENTOS CORPORATIVOS ═══
+       Para editar un menú, cambia el texto de su <article class="set-menu">.
+       Para añadir otro, copia un <article> completo y cambia número, id (menu-corp-N), platos y precio. -->
+  <dialog class="modal" id="menus-corporativos" aria-labelledby="menus-corporativos-title">
+    <div class="modal__panel">
+      <div class="modal__bar">
+        <div class="brand brand--modal" aria-hidden="true">
+          <picture>
+            <source srcset="assets/img/logo-corona.webp" type="image/webp">
+            <img src="assets/img/logo-corona.png" alt="" width="653" height="457" class="brand__logo">
+          </picture>
+          <span class="brand__text">
+            <span class="brand__name">Mau Loa</span>
+            <span class="brand__tagline">Por siempre</span>
+          </span>
+        </div>
+        <button type="button" class="modal__close" data-dialog-close><span class="modal__close-label">Cerrar</span> <span class="modal__close-icon" aria-hidden="true">×</span></button>
+      </div>
+
+      <div class="modal__body">
+        <header class="modal__head">
+          <p class="eyebrow">Eventos corporativos</p>
+          <h2 class="modal__title" id="menus-corporativos-title">Nuestros <em>menús</em></h2>
+          <span class="divider" aria-hidden="true"></span>
+        </header>
+
+        <!-- Selector de menú: solo visible en móvil/tableta (≤900px), donde se ve un menú cada vez -->
+        <div class="menu-switch" role="tablist" aria-label="Elegir menú">
+          <button type="button" class="menu-switch__tab" role="tab" id="menu-corp-1-tab" aria-controls="menu-corp-1-card">Menú 1</button>
+          <button type="button" class="menu-switch__tab" role="tab" id="menu-corp-2-tab" aria-controls="menu-corp-2-card">Menú 2</button>
+          <button type="button" class="menu-switch__tab" role="tab" id="menu-corp-3-tab" aria-controls="menu-corp-3-card">Menú 3</button>
+        </div>
+
+        <div class="set-menus">
+          <!-- Menú 1 -->
+          <article class="set-menu" id="menu-corp-1-card" role="tabpanel" aria-labelledby="menu-corp-1">
+            <h3 class="set-menu__title" id="menu-corp-1"><span class="set-menu__label">Menú</span> <span class="set-menu__num">1</span></h3>
+            <section class="set-menu__course">
+              <h4 class="set-menu__course-title">Entrantes</h4>
+              <ul class="set-menu__dishes">
+                <li>Salmorejo cordobés con taquitos de jamón</li>
+                <li>Ensaladilla de gambas al ajillo</li>
+                <li>Berenjenas fritas con miel de caña</li>
+              </ul>
+            </section>
+            <section class="set-menu__course">
+              <h4 class="set-menu__course-title">Principal</h4>
+              <ul class="set-menu__dishes">
+                <li>Solomillo de cerdo con salsa de puerro acompañado de patatas fritas</li>
+              </ul>
+            </section>
+            <section class="set-menu__course">
+              <h4 class="set-menu__course-title">Postre</h4>
+              <ul class="set-menu__dishes">
+                <li>Bandeja de pasteles surtidos</li>
+              </ul>
+            </section>
+            <footer class="set-menu__foot">
+              <p class="set-menu__price">39,00 €</p>
+              <p class="set-menu__note">Incluye cerveza, vino, refrescos y café o té</p>
+            </footer>
+          </article>
+
+          <!-- Menú 2 -->
+          <article class="set-menu" id="menu-corp-2-card" role="tabpanel" aria-labelledby="menu-corp-2">
+            <h3 class="set-menu__title" id="menu-corp-2"><span class="set-menu__label">Menú</span> <span class="set-menu__num">2</span></h3>
+            <section class="set-menu__course">
+              <h4 class="set-menu__course-title">Entrantes</h4>
+              <ul class="set-menu__dishes">
+                <li>Ensaladilla de gambas al ajillo</li>
+                <li>Timbal de berenjena con queso de cabra, solomillo y miel de caña</li>
+                <li>Croquetas caseras</li>
+              </ul>
+            </section>
+            <section class="set-menu__course">
+              <h4 class="set-menu__course-title">Principal</h4>
+              <ul class="set-menu__dishes">
+                <li>Carrillá al vino tinto con parmentier de patata</li>
+              </ul>
+            </section>
+            <section class="set-menu__course">
+              <h4 class="set-menu__course-title">Postre</h4>
+              <ul class="set-menu__dishes">
+                <li>Bandeja de pasteles surtidos</li>
+              </ul>
+            </section>
+            <footer class="set-menu__foot">
+              <p class="set-menu__price">42,00 €</p>
+              <p class="set-menu__note">Incluye cerveza, vino, refrescos y café o té</p>
+            </footer>
+          </article>
+
+          <!-- Menú 3 -->
+          <article class="set-menu" id="menu-corp-3-card" role="tabpanel" aria-labelledby="menu-corp-3">
+            <h3 class="set-menu__title" id="menu-corp-3"><span class="set-menu__label">Menú</span> <span class="set-menu__num">3</span></h3>
+            <section class="set-menu__course">
+              <h4 class="set-menu__course-title">Entrantes</h4>
+              <ul class="set-menu__dishes">
+                <li>Ensalada de espinacas fritas con queso de cabra y nueces</li>
+                <li>Tosta de presa con cebolla caramelizada y mayonesa de trufa</li>
+                <li>Pan bao de carne deshilachada con mayonesa de siracha</li>
+              </ul>
+            </section>
+            <section class="set-menu__course">
+              <h4 class="set-menu__course-title">Principal</h4>
+              <ul class="set-menu__dishes">
+                <li>Solomillo de cerdo con salsa de boletus y patatas fritas</li>
+              </ul>
+            </section>
+            <section class="set-menu__course">
+              <h4 class="set-menu__course-title">Postre</h4>
+              <ul class="set-menu__dishes">
+                <li>Bandeja de pasteles surtidos</li>
+              </ul>
+            </section>
+            <footer class="set-menu__foot">
+              <p class="set-menu__price">43,00 €</p>
+              <p class="set-menu__note">Incluye cerveza, vino, refrescos y café o té</p>
+            </footer>
+          </article>
+        </div>
+
+        <!-- Botón «Menú personalizado» · TODO: acción pendiente de definir.
+             Para activarlo: quitar aria-disabled y aria-describedby, borrar el aviso
+             .modal__hint y programar la acción en initCustomMenu() de js/main.js. -->
+        <div class="modal__actions">
+          <button type="button" class="btn btn--primary" data-accion="menu-personalizado" aria-disabled="true" aria-describedby="menu-personalizado-aviso">Menú personalizado</button>
+          <p class="modal__hint" id="menu-personalizado-aviso">Próximamente</p>
+        </div>
+
+        <p class="modal__note">Alérgenos disponibles bajo petición</p>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- ═══ VISOR DE IMAGEN ═══ -->
+  <dialog class="lightbox" id="lightbox" aria-label="Imagen ampliada">
+    <img class="lightbox__img" src="data:," alt="">
+    <button type="button" class="lightbox__close" data-dialog-close aria-label="Cerrar">×</button>
+  </dialog>
+</body>
+</html>
