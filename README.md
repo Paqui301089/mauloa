@@ -36,9 +36,14 @@ python3 -m http.server 8000
 - **Responsive:** menú hamburguesa en móvil, rejillas adaptables (escritorio, tableta y móvil).
 - **Sin JavaScript:** la carta muestra todas las secciones y la galería se desplaza horizontalmente.
 
-## Pendiente antes de publicar
+## Publicación
 
-1. Dominio aún no contratado. Cuando exista: sustituir `DOMINIO` en `index.html` (canonical) y `robots.txt`; convertir `og:image` y la imagen del JSON-LD en URL absolutas.
+Publicada en **GitHub Pages** desde la rama `main` (raíz): https://paqui301089.github.io/mauloa/
+Cada push a `main` actualiza la web en uno o dos minutos. `.nojekyll` evita que GitHub procese los archivos.
+
+## Pendiente
+
+1. **Dominio propio (aún no contratado).** Mientras tanto se usa la URL de GitHub Pages. Cuando exista, buscar el marcador `DOMINIO` y cambiar `https://paqui301089.github.io/mauloa/` por el dominio nuevo en `index.html` (canonical, `og:url`, `og:image`, `url` e `image` del JSON-LD), `robots.txt` y `sitemap.xml`, y configurarlo en Settings › Pages › Custom domain.
 
 ## Mantenimiento
 

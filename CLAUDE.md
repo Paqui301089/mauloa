@@ -122,7 +122,7 @@ mau-loa-web/
 ├── assets/img/       imágenes en uso
 ├── assets/icons/     favicon e iconos
 ├── assets/sin-usar/  imágenes disponibles no utilizadas
-├── site.webmanifest · robots.txt · README.md · CLAUDE.md
+├── site.webmanifest · robots.txt · sitemap.xml · .nojekyll · README.md · CLAUDE.md
 ```
 
 - Nombres en **minúsculas, sin espacios ni tildes, separados por guiones** (`ensaladilla-gambas-ajillo.jpg`). Nunca `.jfif`; la extensión debe coincidir con el formato real.
@@ -132,7 +132,7 @@ mau-loa-web/
 
 ## 9. Pendiente
 
-- **Dominio (aún no contratado):** cuando exista, completar el `canonical` (comentado), `og:url`, `og:image` y la imagen del JSON-LD con URL absolutas, y el `Sitemap` de `robots.txt`. Buscar los marcadores `TODO` y `DOMINIO`.
+- **Dominio (aún no contratado):** la web se publica en GitHub Pages (repositorio `Paqui301089/mauloa`, rama `main`, raíz) en https://paqui301089.github.io/mauloa/, y esa URL se usa de forma provisional. Cuando exista el dominio propio, buscar el marcador `DOMINIO` y sustituir la URL en `index.html` (canonical, `og:url`, `og:image`, `url` e `image` del JSON-LD), `robots.txt` y `sitemap.xml`. La web se sirve en el subdirectorio `/mauloa/`: todas las rutas internas deben ser **relativas** (`assets/…`, nunca `/assets/…`).
 - **Carta:** el contenido actual es provisional; no modificarlo salvo petición expresa.
 - **Menú personalizado:** falta definir qué hace el botón (buscar `TODO` en `index.html` y `js/main.js`).
 - **Eventos:** las tarjetas I, II y IV aún no abren ventana.
