@@ -169,6 +169,7 @@
           <button class="tabs__tab" role="tab" type="button" id="tab-aperitivo" aria-controls="panel-aperitivo" aria-selected="true">Para abrir el apetito</button>
           <button class="tabs__tab" role="tab" type="button" id="tab-huerto" aria-controls="panel-huerto" aria-selected="false" tabindex="-1">Del huerto a tu mesa</button>
           <button class="tabs__tab" role="tab" type="button" id="tab-compartir" aria-controls="panel-compartir" aria-selected="false" tabindex="-1">Para compartir o no</button>
+		  <button class="tabs__tab" role="tab" type="button" id="tab-burger" aria-controls="panel-burger" aria-selected="false" tabindex="-1">Nuestras Burger</button>
           <button class="tabs__tab" role="tab" type="button" id="tab-fuego" aria-controls="panel-fuego" aria-selected="false" tabindex="-1">Al fuego</button>
         </div>
 
@@ -177,19 +178,19 @@
           <ul class="menu">
             <li class="menu__item"><div><p class="menu__name">Tabla de queso</p><p class="menu__desc">Payoyo, picante, romero y apolonio</p></div><p class="menu__price">12,00 €</p></li>
             <li class="menu__item"><div><p class="menu__name">Chicharrón de Cádiz</p></div><p class="menu__price">8,00 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Tosta de crema de cabrales y chorizo picante</p></div><p class="menu__price">14,00 €</p></li>
             <li class="menu__item"><div><p class="menu__name">Tosta de presa con cebolla caramelizada y mayonesa de trufa</p></div><p class="menu__price">14,00 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Nachis Achis</p><p class="menu__desc">Nachos con guacamole, queso crema, pico de gallo y bacon</p></div><p class="menu__price">10,00 €</p></li>
+            <!--  
+			<li class="menu__item"><div><p class="menu__name">Nachis Achis</p><p class="menu__desc">Nachos con guacamole, queso crema, pico de gallo y bacon</p></div><p class="menu__price">10,00 €</p></li> -->
           </ul>
         </div>
 
         <div class="tabs__panel" role="tabpanel" id="panel-huerto" aria-labelledby="tab-huerto" tabindex="0">
-          <h3 class="visually-hidden">Del huerto a tu mesa</h3>
+          <h3 class="visually-hidden">Del huerto o del puerto a tu mesa</h3>
           <ul class="menu">
             <li class="menu__item"><div><p class="menu__name">Gambas de Huelva</p></div><p class="menu__price">16,00 €</p></li>
+			<li class="menu__item"><div><p class="menu__name">Cogollos templados con anchoas y roque</p></div><p class="menu__price">12,00 €</p></li>
             <li class="menu__item"><div><p class="menu__name">Espinacas fritas con nueces</p><p class="menu__desc">Ensalada de espinacas con queso de cabra y nueces</p></div><p class="menu__price">10,00 €</p></li>
             <li class="menu__item"><div><p class="menu__name">Ensaladilla de gambas al ajillo</p><p class="menu__desc">Patatas, zanahorias, ajo, gambas, mayonesa</p></div><p class="menu__price">Tapa 3,50 € · Ración 9,00 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Ensaladilla de mejillón en escabeche</p><p class="menu__desc">Con alcaparras y pepinillos</p></div><p class="menu__price">Tapa 3,50 € · Ración 9,00 €</p></li>
           </ul>
         </div>
 
@@ -197,35 +198,40 @@
           <h3 class="visually-hidden">Para compartir o no</h3>
           <ul class="menu">
             <li class="menu__item"><div><p class="menu__name">Croquetas caseras</p><p class="menu__desc">Consultar sabores disponibles</p></div><p class="menu__price">Tapa 3,50 € · Ración 9,00 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Papas bravioli</p></div><p class="menu__price">9,00 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Papas a la antigua</p><p class="menu__desc">Salsa de mostaza antigua con cebolla y bacon</p></div><p class="menu__price">9,00 €</p></li>
+			<li class="menu__item"><div><p class="menu__name">Gyozas de pollo setas</p><p class="menu__desc">4 unidades</p></div><p class="menu__price">5,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Papas con salsa</p><p class="menu__desc">Salsa bravioli o antigua</p></div><p class="menu__price">9,00 €</p></li>
             <li class="menu__item"><div><p class="menu__name">Timbal de berenjena</p><p class="menu__desc">Con solomillo, queso de cabra y miel de caña</p></div><p class="menu__price">4,50 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Gyozas de pollo y setas</p></div><p class="menu__price">5,00 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Bocado de camarón</p><p class="menu__desc">Con alga wakame y mayonesa de kimchi</p></div><p class="menu__price">8,50 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Solomillo al whisky</p></div><p class="menu__price">Tapa 4,50 € · Ración 9,00 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Solomillo roque</p></div><p class="menu__price">Tapa 4,50 € · Ración 9,00 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Chipi plancha</p></div><p class="menu__price">Tapa 4,00 € · Ración 9,50 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Pan bao (2 uds)</p><p class="menu__desc">Lechuga, carne deshilachada, salsa cacahuetes y mayonesa de sriracha</p></div><p class="menu__price">4,50 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Pan brioche de langostinos rebozados</p><p class="menu__desc">Canónigos y mayonesa de kimchi</p></div><p class="menu__price">Tapa 8,50 € · Ración 16,00 € · Unidad 5,00 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Lagrimitas de pollo caseras</p></div><p class="menu__price">Tapa 4,00 € · Ración 9,00 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Pollo cajún</p></div><p class="menu__price">Tapa 4,00 € · Ración 9,00 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Chocos fritos</p></div><p class="menu__price">Tapa 7,00 € · Ración 12,50 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Boquerones</p></div><p class="menu__price">Tapa 7,00 € · Ración 12,50 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Adobo</p></div><p class="menu__price">Tapa 6,00 € · Ración 11,00 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Hamburguesa crispy</p><p class="menu__desc">Pollo crispy, lechuga, tomate y mayonesa de kimchi</p></div><p class="menu__price">10,00 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Hamburguesa de atún</p><p class="menu__desc">Con lechuga, tomate y salsa tártara</p></div><p class="menu__price">14,00 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Hamburguesa Mau Loa</p><p class="menu__desc">Ternera, cebolla caramelizada, queso de cabra y bacon crispy</p></div><p class="menu__price">10,00 €</p></li>
+			<li class="menu__item"><div><p class="menu__name">Pollo cajún</p></div><p class="menu__price">Tapa 4,00 € · Ración 9,00 €</p></li>
+			<li class="menu__item"><div><p class="menu__name">Berenjenas con miel de caña</p></div><p class="menu__price">8,00 €</p></li>
+			<li class="menu__item"><div><p class="menu__name">Flor de alcachofa</p><p class="menu__desc">con huevo frito y jamón</p></div><p class="menu__price">6 €</p></li>
+			<li class="menu__item"><div><p class="menu__name">Chipirón plancha</p></div><p class="menu__price">Tapa 4,00 € · Ración 9,50 €</p></li>
+			<li class="menu__item"><div><p class="menu__name">Brioche de langostinos</p><p class="menu__desc">Langostinos rebozados, canónigos y mayonesa de kimchi</p></div><p class="menu__price">1 Unidad 8,50 € · 2 Unidades 16,00 €</p></li>
+			<li class="menu__item"><div><p class="menu__name">Pan bao (2 uds)</p><p class="menu__desc">Lechuga, carne deshilachada, salsa cacahuetes y mayonesa de sriracha</p></div><p class="menu__price">4,50 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Solomillo</p><p class="menu__desc">Al whisky, roque o a la antigua</p></div><p class="menu__price">Tapa 4,50 € · Ración 9,00 €</p></li>
+			<li class="menu__item"><div><p class="menu__name">Canelón</p><p class="menu__desc">De secreto y de jamón con crema de queso tostado y trufa</p></div><p class="menu__price">4,50 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Pulpo a la brasa</p><p class="menu__desc">Con puré de patatas trufado y salsa verde</p></div><p class="menu__price">16,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Lagrimitas de pollo</p></div><p class="menu__price">Tapa 4,00 € · Ración 9,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Chocos</p></div><p class="menu__price">Media 7,00 € · Ración 12,50 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Boquerón</p></div><p class="menu__price">Media 7,00 € · Ración 12,50 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Adobo</p></div><p class="menu__price">Media 6,00 € · Ración 11,00 €</p></li>
           </ul>
+        </div>
+		<div class="tabs__panel" role="tabpanel" id="panel-burger" aria-labelledby="tab-burger" tabindex="0">
+          <h3 class="visually-hidden">Nuestras Burger</h3>
+          <ul class="menu">
+			<li class="menu__item"><div><p class="menu__name">Mau Loa</p><p class="menu__desc">Con carne de ternera, queso de cabra, cebolla caramelizada y mayonesa de trufa</p></div><p class="menu__price">10,00 €</p></li>
+			<li class="menu__item"><div><p class="menu__name">Crispy de pollo</p><p class="menu__desc">Con lechuga, tomate y mayonesa de kimchi</p></div><p class="menu__price">10,00 €</p></li>     
+		  </ul>
         </div>
 
         <div class="tabs__panel" role="tabpanel" id="panel-fuego" aria-labelledby="tab-fuego" tabindex="0">
           <h3 class="visually-hidden">Al fuego</h3>
           <ul class="menu">
-            <li class="menu__item"><div><p class="menu__name">Atún</p><p class="menu__desc">Lomo de atún a la plancha con picada verde</p></div><p class="menu__price">13,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Atún</p><p class="menu__desc">Con picada verde</p></div><p class="menu__price">15,00 €</p></li>
             <li class="menu__item"><div><p class="menu__name">Churrasco</p><p class="menu__desc">De pollo o lomo acompañado de nuestro morimojo</p></div><p class="menu__price">8,50 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Presa ibérica</p><p class="menu__desc">Presa ibérica de nuestra tierra</p></div><p class="menu__price">18,00 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Pluma ibérica</p><p class="menu__desc">Pluma ibérica de nuestra tierra</p></div><p class="menu__price">15,00 €</p></li>
-            <li class="menu__item"><div><p class="menu__name">Lagarto ibérico</p><p class="menu__desc">Lagartito ibérico de nuestra tierra</p></div><p class="menu__price">14,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Presa ibérica</p></div><p class="menu__price">20,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Pluma ibérica</p></div><p class="menu__price">18,00 €</p></li>
+            <li class="menu__item"><div><p class="menu__name">Lagarto</p></div><p class="menu__price">16,00 €</p></li>
           </ul>
         </div>
 
